@@ -2,8 +2,8 @@
 
 A continuous delivery course desgined to showcase accessing database data using different technologies such as:
 
-Windows Forms
-JavaFX
-ASP.NET MVC
-WPF
+Windows Forms, 
+JavaFX, 
+ASP.NET MVC, 
+WPF, 
 Android
