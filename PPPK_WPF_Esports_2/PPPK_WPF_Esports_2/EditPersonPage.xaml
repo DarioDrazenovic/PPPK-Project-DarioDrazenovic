@@ -1,0 +1,64 @@
+﻿<local:FramedPage x:Class="PPPK_WPF_Esports_2.EditPersonPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PPPK_WPF_Esports_2"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="EditPersonPage">
+
+    <Grid x:Name="GridContainer" Background="{StaticResource GradientBackground}">
+        <Border
+            x:Name="PictureBorder"
+            BorderBrush="WhiteSmoke" BorderThickness="1" HorizontalAlignment="Left" Height="351" Margin="537,48,0,0" VerticalAlignment="Top" Width="217">
+            <Image
+                x:Name="Picture"
+                Source="{Binding Image}" />
+
+        </Border>
+        <Button
+            x:Name="BtnBack"
+            Click="BtnBack_Click"
+            Background="Transparent"
+            BorderBrush="Transparent"
+            HorizontalAlignment="Left" Margin="26,14,0,0" VerticalAlignment="Top" Width="80" Height="58">
+            <Image Source="/Assets/back.png" />
+        </Button>
+        <Label 
+            Content="First name" 
+            Foreground="White"
+            HorizontalAlignment="Left" Margin="26,103,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="TbFirstName" HorizontalAlignment="Left" Height="23" Margin="118,106,0,0" TextWrapping="Wrap" Text="{Binding FirstName}" VerticalAlignment="Top" Width="345"/>
+        <Label 
+            Content="Last name" 
+            Foreground="White"
+            HorizontalAlignment="Left" Margin="26,162,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="TbLastName" HorizontalAlignment="Left" Height="23" Margin="118,165,0,0" TextWrapping="Wrap" Text="{Binding LastName}" VerticalAlignment="Top" Width="345"/>
+        <Label 
+            Content="Age" 
+            Foreground="White"
+            HorizontalAlignment="Left" Margin="26,212,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox Tag="int" x:Name="TbAge" HorizontalAlignment="Left" Height="23" Margin="118,215,0,0" TextWrapping="Wrap" Text="{Binding Age}" VerticalAlignment="Top" Width="345"/>
+        <Label 
+            Content="Email" 
+            Foreground="White"
+            HorizontalAlignment="Left" Margin="26,262,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox Tag="Email" x:Name="TbEmail" HorizontalAlignment="Left" Height="23" Margin="118,265,0,0" TextWrapping="Wrap" Text="{Binding Email}" VerticalAlignment="Top" Width="345"/>
+        <Button 
+            Content="Commit" 
+            Background="Black"
+            Foreground="WhiteSmoke"
+            Name="BtnCommit"
+            Click="BtnCommit_Click"
+            HorizontalAlignment="Left" Margin="118,329,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button 
+            Content="Upload"
+            Background="Orange"
+            Foreground="WhiteSmoke"
+            Name="BtnUpload"
+            Click="BtnUpload_Click"
+            HorizontalAlignment="Left" Margin="388,329,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</local:FramedPage>

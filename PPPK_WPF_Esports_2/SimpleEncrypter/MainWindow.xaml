@@ -1,0 +1,17 @@
+﻿<Window x:Class="SimpleEncrypter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimpleEncrypter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Plain" HorizontalAlignment="Left" Margin="38,72,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="TbPlain" HorizontalAlignment="Left" Height="23" Margin="151,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="610"/>
+        <Label Content="Encrypted" HorizontalAlignment="Left" Margin="38,173,0,0" VerticalAlignment="Top" Width="98"/>
+        <TextBox x:Name="TbEncrypted" HorizontalAlignment="Left" Height="23" Margin="151,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="610"/>
+        <Button x:Name="BtnEncrypt" Content="Encrypt" HorizontalAlignment="Left" Margin="553,258,0,0" VerticalAlignment="Top" Width="208" Height="39" Click="BtnEncrypt_Click"/>
+
+    </Grid>
+</Window>
