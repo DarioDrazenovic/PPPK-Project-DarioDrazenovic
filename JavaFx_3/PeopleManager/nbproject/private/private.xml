@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/Dario_PPPK/JavaFx_3/PeopleManager/src/hr/algebra/controller/PeopleController.java</file>
+            <file>file:/D:/Dario_PPPK/JavaFx_3/PeopleManager/src/hr/algebra/dao/sql/HibernateRepository.java</file>
+            <file>file:/D:/Dario_PPPK/JavaFx_3/PeopleManager/src/hr/algebra/dao/RepositoryEsportsTeam.java</file>
+            <file>file:/D:/Dario_PPPK/JavaFx_3/PeopleManager/src/hr/algebra/dao/sql/HibernateRepositoryEsports.java</file>
+            <file>file:/D:/Dario_PPPK/JavaFx_3/PeopleManager/src/hr/algebra/PeopleApplication.java</file>
+            <file>file:/D:/Dario_PPPK/JavaFx_3/PeopleManager/src/hr/algebra/dao/sql/HibernateFactory.java</file>
+            <file>file:/D:/Dario_PPPK/JavaFx_3/PeopleManager/src/hr/algebra/model/Person.java</file>
+            <file>file:/D:/Dario_PPPK/JavaFx_3/PeopleManager/src/hr/algebra/dao/sql/EntityManagerWrapper.java</file>
+        </group>
+    </open-files>
+</project-private>
