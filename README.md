@@ -1,4 +1,4 @@
-Pristup podacima iz programskog koda
+# Pristup podacima iz programskog koda
 Accessing data from program code
 
 A continuous delivery course desgined to showcase accessing database data using different technologies such as:
