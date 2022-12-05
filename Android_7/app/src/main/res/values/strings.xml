@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PersonManager</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">List Fragment</string>
+    <string name="second_fragment_label">Edit Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello list fragment</string>
+    <string name="hello_second_fragment">Hello edit fragment. Arg: %1$s</string>
+    <string name="date">Date</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="commit">Commit</string>
+    <string name="please_insert_value">Please insert value</string>
+    <string name="please">Please insert</string>
+    <string name="online_name">Online name</string>
+</resources>
