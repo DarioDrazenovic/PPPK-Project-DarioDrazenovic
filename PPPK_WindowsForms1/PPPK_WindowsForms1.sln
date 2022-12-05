@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPPK_WindowsForms1", "PPPK_WindowsForms1\PPPK_WindowsForms1.csproj", "{B4279553-9B15-4F88-BAA8-7CDAF2B3F509}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4279553-9B15-4F88-BAA8-7CDAF2B3F509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4279553-9B15-4F88-BAA8-7CDAF2B3F509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4279553-9B15-4F88-BAA8-7CDAF2B3F509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4279553-9B15-4F88-BAA8-7CDAF2B3F509}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7383E87-3BC7-4E91-A9E0-B5145EE83675}
+	EndGlobalSection
+EndGlobal
